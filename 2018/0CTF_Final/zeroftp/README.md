@@ -1,6 +1,6 @@
 # VTP1 & VTP2 Writeup
 
-VTP means vulnerable transfer protocol. It contains a private protocol implementing part of FTP commands and a filesystem designed by ourself.
+VTP means vulnerable transfer protocol. It contains a private protocol implementing part of FTP commands and a filesystem designed by ourself. 
 
 VTP1 and VTP2 shares the same binary and the binary is running on Ubuntu 16.04. For VTP1,  you have to get the first flag by reversing the binary and find out the backdoor. For VTP2,  you have to exploit the bug in the binary and then get shell to find the second flag.  
 
@@ -234,3 +234,7 @@ zeroftp_setfileinfo('/', 5 , libc.address+0x3c56f8)
 zeroftp_setfileinfo(p64(libc.address+0x3c36e0)[:6], 0, p64(heap+0x1b90))
 
 ```
+
+
+[exp.py](https://github.com/ZhangZhuoSJTU/MyCTF/blob/master/2018/0CTF_Final/zeroftp/exp.py) 
+[source code](https://github.com/ZhangZhuoSJTU/MyCTF/tree/master/2018/0CTF_Final/zeroftp)
