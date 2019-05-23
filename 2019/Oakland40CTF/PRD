@@ -1,0 +1,522 @@
+L   3
+ ENT       L   4
+ LCA'Flag: '
+ LDCI           6
+ LDCI           6
+ LDA   0       5
+ CSP         WRS
+ LDCI           1
+I   10
+ SRO          61
+ LDCI          53
+ STR   0      62
+L   5
+ LDO          61
+ LOD   0      62
+ LEQI
+ FJP       L   6
+ LAO           8
+ LDO          61
+ DEC           1
+I   20
+ IXA           1
+ LDA   0       4
+ CSP         RDC
+ LDO          61
+ INC           1
+ SRO          61
+ UJP       L   5
+L   6
+ LAO           8
+ LDCI           1
+ DEC           1
+I   30
+ IXA           1
+ IND           0
+ LDCI         111
+ EQUI
+ LAO           8
+ LDCI           2
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          52
+I   40
+ EQUI
+ AND
+ LAO           8
+ LDCI           3
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          48
+ EQUI
+ AND
+I   50
+ LAO           8
+ LDCI           4
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         123
+ EQUI
+ AND
+ LAO           8
+ LDCI           5
+I   60
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          84
+ EQUI
+ AND
+ LAO           8
+ LDCI           6
+ DEC           1
+ IXA           1
+I   70
+ IND           0
+ LDCI         104
+ EQUI
+ AND
+ LAO           8
+ LDCI           7
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         101
+I   80
+ EQUI
+ AND
+ LAO           8
+ LDCI           8
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          95
+ EQUI
+ AND
+I   90
+ LAO           8
+ LDCI           9
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          55
+ EQUI
+ AND
+ LAO           8
+ LDCI          10
+I  100
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          48
+ EQUI
+ AND
+ LAO           8
+ LDCI          11
+ DEC           1
+ IXA           1
+I  110
+ IND           0
+ LDCI         115
+ EQUI
+ AND
+ LAO           8
+ LDCI          12
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          95
+I  120
+ EQUI
+ AND
+ LAO           8
+ LDCI          13
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          99
+ EQUI
+ AND
+I  130
+ LAO           8
+ LDCI          14
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          97
+ EQUI
+ AND
+ LAO           8
+ LDCI          15
+I  140
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         108
+ EQUI
+ AND
+ LAO           8
+ LDCI          16
+ DEC           1
+ IXA           1
+I  150
+ IND           0
+ LDCI         108
+ EQUI
+ AND
+ LAO           8
+ LDCI          17
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         101
+I  160
+ EQUI
+ AND
+ LAO           8
+ LDCI          18
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         100
+ EQUI
+ AND
+I  170
+ LAO           8
+ LDCI          19
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          95
+ EQUI
+ AND
+ LAO           8
+ LDCI          20
+I  180
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          97
+ EQUI
+ AND
+ LAO           8
+ LDCI          21
+ DEC           1
+ IXA           1
+I  190
+ IND           0
+ LDCI         110
+ EQUI
+ AND
+ LAO           8
+ LDCI          22
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         100
+I  200
+ EQUI
+ AND
+ LAO           8
+ LDCI          23
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          95
+ EQUI
+ AND
+I  210
+ LAO           8
+ LDCI          24
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         116
+ EQUI
+ AND
+ LAO           8
+ LDCI          25
+I  220
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         104
+ EQUI
+ AND
+ LAO           8
+ LDCI          26
+ DEC           1
+ IXA           1
+I  230
+ IND           0
+ LDCI         101
+ EQUI
+ AND
+ LAO           8
+ LDCI          27
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         121
+I  240
+ EQUI
+ AND
+ LAO           8
+ LDCI          28
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          95
+ EQUI
+ AND
+I  250
+ LAO           8
+ LDCI          29
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         119
+ EQUI
+ AND
+ LAO           8
+ LDCI          30
+I  260
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          97
+ EQUI
+ AND
+ LAO           8
+ LDCI          31
+ DEC           1
+ IXA           1
+I  270
+ IND           0
+ LDCI         110
+ EQUI
+ AND
+ LAO           8
+ LDCI          32
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         116
+I  280
+ EQUI
+ AND
+ LAO           8
+ LDCI          33
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          95
+ EQUI
+ AND
+I  290
+ LAO           8
+ LDCI          34
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         116
+ EQUI
+ AND
+ LAO           8
+ LDCI          35
+I  300
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         104
+ EQUI
+ AND
+ LAO           8
+ LDCI          36
+ DEC           1
+ IXA           1
+I  310
+ IND           0
+ LDCI         101
+ EQUI
+ AND
+ LAO           8
+ LDCI          37
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         105
+I  320
+ EQUI
+ AND
+ LAO           8
+ LDCI          38
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         114
+ EQUI
+ AND
+I  330
+ LAO           8
+ LDCI          39
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          95
+ EQUI
+ AND
+ LAO           8
+ LDCI          40
+I  340
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          99
+ EQUI
+ AND
+ LAO           8
+ LDCI          41
+ DEC           1
+ IXA           1
+I  350
+ IND           0
+ LDCI         111
+ EQUI
+ AND
+ LAO           8
+ LDCI          42
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         109
+I  360
+ EQUI
+ AND
+ LAO           8
+ LDCI          43
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         112
+ EQUI
+ AND
+I  370
+ LAO           8
+ LDCI          44
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         105
+ EQUI
+ AND
+ LAO           8
+ LDCI          45
+I  380
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         108
+ EQUI
+ AND
+ LAO           8
+ LDCI          46
+ DEC           1
+ IXA           1
+I  390
+ IND           0
+ LDCI         101
+ EQUI
+ AND
+ LAO           8
+ LDCI          47
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         114
+I  400
+ EQUI
+ AND
+ LAO           8
+ LDCI          48
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          95
+ EQUI
+ AND
+I  410
+ LAO           8
+ LDCI          49
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          98
+ EQUI
+ AND
+ LAO           8
+ LDCI          50
+I  420
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI          97
+ EQUI
+ AND
+ LAO           8
+ LDCI          51
+ DEC           1
+ IXA           1
+I  430
+ IND           0
+ LDCI          99
+ EQUI
+ AND
+ LAO           8
+ LDCI          52
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         107
+I  440
+ EQUI
+ AND
+ LAO           8
+ LDCI          53
+ DEC           1
+ IXA           1
+ IND           0
+ LDCI         125
+ EQUI
+ AND
+I  450
+ FJP       L   7
+ LCA'Good job!'
+ LDCI           9
+ LDCI           9
+ LDA   0       5
+ CSP         WRS
+ LDA   0       5
+ CSP         WLN
+ UJP       L   8
+L   7
+ LCA'Try again!'
+I  460
+ LDCI          10
+ LDCI          10
+ LDA   0       5
+ CSP         WRS
+ LDA   0       5
+ CSP         WLN
+L   8
+ RETP
+L   4=         62
+
+I    0
+ MST           0
+ CUP   0   L   3
+ STP
+

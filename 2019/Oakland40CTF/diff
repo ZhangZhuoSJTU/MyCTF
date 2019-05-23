@@ -1,0 +1,24 @@
+diff --git a/mos6502.h b/mos6502.h
+index c40b372..4b3ac54 100644
+--- a/mos6502.h
++++ b/mos6502.h
+@@ -49,7 +49,7 @@ private:
+ 	uint8_t Y; // Y-index
+ 	
+ 	// stack pointer
+-	uint8_t sp;
++	uint64_t sp;
+ 	
+ 	// program counter
+ 	uint16_t pc;
+@@ -169,8 +169,8 @@ private:
+ 	static const uint16_t nmiVectorL = 0xFFFA;
+ 	
+ 	// read/write callbacks
+-	typedef void (*BusWrite)(uint16_t, uint8_t);
+-	typedef uint8_t (*BusRead)(uint16_t);
++	typedef void (*BusWrite)(uint64_t, uint64_t);
++	typedef uint8_t (*BusRead)(uint64_t);
+ 	BusRead Read;
+ 	BusWrite Write;
+ 	

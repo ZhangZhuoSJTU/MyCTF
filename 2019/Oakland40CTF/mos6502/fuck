@@ -1,0 +1,910 @@
+0000	20 1103    JSR $0311    ; call 0x311
+0003	A9 FA      LDA #$FA     ; mov A, 0xFA
+0005	8D 0000    STA $0000    ; mov [0x0000], A
+0008	A9 03      LDA #$03     ; mov A, 0x03
+000A	8D 0100    STA $0001    ; mov [0x0001], A
+000D	20 6F03    JSR $036F    ; call 0x36f -- write(0x3fa)
+0010	03         ???
+0011	00         BRK
+0012	00         BRK
+0013	00         BRK
+0014	00         BRK
+0015	00         BRK
+0016	00         BRK
+0017	00         BRK
+0018	00         BRK
+0019	00         BRK
+001A	00         BRK
+001B	00         BRK
+001C	00         BRK
+001D	00         BRK
+001E	00         BRK
+001F	00         BRK
+0020	00         BRK
+0021	00         BRK
+0022	00         BRK
+0023	00         BRK
+0024	00         BRK
+0025	00         BRK
+0026	00         BRK
+0027	00         BRK
+0028	00         BRK
+0029	00         BRK
+002A	00         BRK
+002B	00         BRK
+002C	00         BRK
+002D	00         BRK
+002E	00         BRK
+002F	00         BRK
+0030	00         BRK
+0031	00         BRK
+0032	00         BRK
+0033	00         BRK
+0034	00         BRK
+0035	00         BRK
+0036	00         BRK
+0037	00         BRK
+0038	00         BRK
+0039	00         BRK
+003A	00         BRK
+003B	00         BRK
+003C	00         BRK
+003D	00         BRK
+003E	00         BRK
+003F	00         BRK
+0040	00         BRK
+0041	00         BRK
+0042	00         BRK
+0043	00         BRK
+0044	00         BRK
+0045	00         BRK
+0046	00         BRK
+0047	00         BRK
+0048	00         BRK
+0049	00         BRK
+004A	00         BRK
+004B	00         BRK
+004C	00         BRK
+004D	00         BRK
+004E	00         BRK
+004F	00         BRK
+0050	00         BRK
+0051	00         BRK
+0052	00         BRK
+0053	00         BRK
+0054	00         BRK
+0055	00         BRK
+0056	00         BRK
+0057	00         BRK
+0058	00         BRK
+0059	00         BRK
+005A	00         BRK
+005B	00         BRK
+005C	00         BRK
+005D	00         BRK
+005E	00         BRK
+005F	00         BRK
+0060	00         BRK
+0061	00         BRK
+0062	00         BRK
+0063	00         BRK
+0064	00         BRK
+0065	00         BRK
+0066	00         BRK
+0067	00         BRK
+0068	00         BRK
+0069	00         BRK
+006A	00         BRK
+006B	00         BRK
+006C	00         BRK
+006D	00         BRK
+006E	00         BRK
+006F	00         BRK
+0070	00         BRK
+0071	00         BRK
+0072	00         BRK
+0073	00         BRK
+0074	00         BRK
+0075	00         BRK
+0076	00         BRK
+0077	00         BRK
+0078	00         BRK
+0079	00         BRK
+007A	00         BRK
+007B	00         BRK
+007C	00         BRK
+007D	00         BRK
+007E	00         BRK
+007F	00         BRK
+0080	00         BRK
+0081	00         BRK
+0082	00         BRK
+0083	00         BRK
+0084	00         BRK
+0085	00         BRK
+0086	00         BRK
+0087	00         BRK
+0088	00         BRK
+0089	00         BRK
+008A	00         BRK
+008B	00         BRK
+008C	00         BRK
+008D	00         BRK
+008E	00         BRK
+008F	00         BRK
+0090	00         BRK
+0091	00         BRK
+0092	00         BRK
+0093	00         BRK
+0094	00         BRK
+0095	00         BRK
+0096	00         BRK
+0097	00         BRK
+0098	00         BRK
+0099	00         BRK
+009A	00         BRK
+009B	00         BRK
+009C	00         BRK
+009D	00         BRK
+009E	00         BRK
+009F	00         BRK
+00A0	00         BRK
+00A1	00         BRK
+00A2	00         BRK
+00A3	00         BRK
+00A4	00         BRK
+00A5	00         BRK
+00A6	00         BRK
+00A7	00         BRK
+00A8	00         BRK
+00A9	00         BRK
+00AA	00         BRK
+00AB	00         BRK
+00AC	00         BRK
+00AD	00         BRK
+00AE	00         BRK
+00AF	00         BRK
+00B0	00         BRK
+00B1	00         BRK
+00B2	00         BRK
+00B3	00         BRK
+00B4	00         BRK
+00B5	00         BRK
+00B6	00         BRK
+00B7	00         BRK
+00B8	00         BRK
+00B9	00         BRK
+00BA	00         BRK
+00BB	00         BRK
+00BC	00         BRK
+00BD	00         BRK
+00BE	00         BRK
+00BF	00         BRK
+00C0	00         BRK
+00C1	00         BRK
+00C2	00         BRK
+00C3	00         BRK
+00C4	00         BRK
+00C5	00         BRK
+00C6	00         BRK
+00C7	00         BRK
+00C8	00         BRK
+00C9	00         BRK
+00CA	00         BRK
+00CB	00         BRK
+00CC	00         BRK
+00CD	00         BRK
+00CE	00         BRK
+00CF	00         BRK
+00D0	00         BRK
+00D1	00         BRK
+00D2	00         BRK
+00D3	00         BRK
+00D4	00         BRK
+00D5	00         BRK
+00D6	00         BRK
+00D7	00         BRK
+00D8	00         BRK
+00D9	00         BRK
+00DA	00         BRK
+00DB	00         BRK
+00DC	00         BRK
+00DD	00         BRK
+00DE	00         BRK
+00DF	00         BRK
+00E0	00         BRK
+00E1	00         BRK
+00E2	00         BRK
+00E3	00         BRK
+00E4	00         BRK
+00E5	00         BRK
+00E6	00         BRK
+00E7	00         BRK
+00E8	00         BRK
+00E9	00         BRK
+00EA	00         BRK
+00EB	00         BRK
+00EC	00         BRK
+00ED	00         BRK
+00EE	00         BRK
+00EF	00         BRK
+00F0	00         BRK
+00F1	00         BRK
+00F2	00         BRK
+00F3	00         BRK
+00F4	00         BRK
+00F5	00         BRK
+00F6	00         BRK
+00F7	00         BRK
+00F8	00         BRK
+00F9	00         BRK
+00FA	00         BRK
+00FB	00         BRK
+00FC	00         BRK
+00FD	00         BRK
+00FE	00         BRK
+00FF	00         BRK
+0100	00         BRK
+0101	00         BRK
+0102	00         BRK
+0103	00         BRK
+0104	00         BRK
+0105	00         BRK
+0106	00         BRK
+0107	00         BRK
+0108	00         BRK
+0109	00         BRK
+010A	00         BRK
+010B	00         BRK
+010C	00         BRK
+010D	00         BRK
+010E	00         BRK
+010F	00         BRK
+0110	00         BRK
+0111	00         BRK
+0112	00         BRK
+0113	00         BRK
+0114	00         BRK
+0115	00         BRK
+0116	00         BRK
+0117	00         BRK
+0118	00         BRK
+0119	00         BRK
+011A	00         BRK
+011B	00         BRK
+011C	00         BRK
+011D	00         BRK
+011E	00         BRK
+011F	00         BRK
+0120	00         BRK
+0121	00         BRK
+0122	00         BRK
+0123	00         BRK
+0124	00         BRK
+0125	00         BRK
+0126	00         BRK
+0127	00         BRK
+0128	00         BRK
+0129	00         BRK
+012A	00         BRK
+012B	00         BRK
+012C	00         BRK
+012D	00         BRK
+012E	00         BRK
+012F	00         BRK
+0130	00         BRK
+0131	00         BRK
+0132	00         BRK
+0133	00         BRK
+0134	00         BRK
+0135	00         BRK
+0136	00         BRK
+0137	00         BRK
+0138	00         BRK
+0139	00         BRK
+013A	00         BRK
+013B	00         BRK
+013C	00         BRK
+013D	00         BRK
+013E	00         BRK
+013F	00         BRK
+0140	00         BRK
+0141	00         BRK
+0142	00         BRK
+0143	00         BRK
+0144	00         BRK
+0145	00         BRK
+0146	00         BRK
+0147	00         BRK
+0148	00         BRK
+0149	00         BRK
+014A	00         BRK
+014B	00         BRK
+014C	00         BRK
+014D	00         BRK
+014E	00         BRK
+014F	00         BRK
+0150	00         BRK
+0151	00         BRK
+0152	00         BRK
+0153	00         BRK
+0154	00         BRK
+0155	00         BRK
+0156	00         BRK
+0157	00         BRK
+0158	00         BRK
+0159	00         BRK
+015A	00         BRK
+015B	00         BRK
+015C	00         BRK
+015D	00         BRK
+015E	00         BRK
+015F	00         BRK
+0160	00         BRK
+0161	00         BRK
+0162	00         BRK
+0163	00         BRK
+0164	00         BRK
+0165	00         BRK
+0166	00         BRK
+0167	00         BRK
+0168	00         BRK
+0169	00         BRK
+016A	00         BRK
+016B	00         BRK
+016C	00         BRK
+016D	00         BRK
+016E	00         BRK
+016F	00         BRK
+0170	00         BRK
+0171	00         BRK
+0172	00         BRK
+0173	00         BRK
+0174	00         BRK
+0175	00         BRK
+0176	00         BRK
+0177	00         BRK
+0178	00         BRK
+0179	00         BRK
+017A	00         BRK
+017B	00         BRK
+017C	00         BRK
+017D	00         BRK
+017E	00         BRK
+017F	00         BRK
+0180	00         BRK
+0181	00         BRK
+0182	00         BRK
+0183	00         BRK
+0184	00         BRK
+0185	00         BRK
+0186	00         BRK
+0187	00         BRK
+0188	00         BRK
+0189	00         BRK
+018A	00         BRK
+018B	00         BRK
+018C	00         BRK
+018D	00         BRK
+018E	00         BRK
+018F	00         BRK
+0190	00         BRK
+0191	00         BRK
+0192	00         BRK
+0193	00         BRK
+0194	00         BRK
+0195	00         BRK
+0196	00         BRK
+0197	00         BRK
+0198	00         BRK
+0199	00         BRK
+019A	00         BRK
+019B	00         BRK
+019C	00         BRK
+019D	00         BRK
+019E	00         BRK
+019F	00         BRK
+01A0	00         BRK
+01A1	00         BRK
+01A2	00         BRK
+01A3	00         BRK
+01A4	00         BRK
+01A5	00         BRK
+01A6	00         BRK
+01A7	00         BRK
+01A8	00         BRK
+01A9	00         BRK
+01AA	00         BRK
+01AB	00         BRK
+01AC	00         BRK
+01AD	00         BRK
+01AE	00         BRK
+01AF	00         BRK
+01B0	00         BRK
+01B1	00         BRK
+01B2	00         BRK
+01B3	00         BRK
+01B4	00         BRK
+01B5	00         BRK
+01B6	00         BRK
+01B7	00         BRK
+01B8	00         BRK
+01B9	00         BRK
+01BA	00         BRK
+01BB	00         BRK
+01BC	00         BRK
+01BD	00         BRK
+01BE	00         BRK
+01BF	00         BRK
+01C0	00         BRK
+01C1	00         BRK
+01C2	00         BRK
+01C3	00         BRK
+01C4	00         BRK
+01C5	00         BRK
+01C6	00         BRK
+01C7	00         BRK
+01C8	00         BRK
+01C9	00         BRK
+01CA	00         BRK
+01CB	00         BRK
+01CC	00         BRK
+01CD	00         BRK
+01CE	00         BRK
+01CF	00         BRK
+01D0	00         BRK
+01D1	00         BRK
+01D2	00         BRK
+01D3	00         BRK
+01D4	00         BRK
+01D5	00         BRK
+01D6	00         BRK
+01D7	00         BRK
+01D8	00         BRK
+01D9	00         BRK
+01DA	00         BRK
+01DB	00         BRK
+01DC	00         BRK
+01DD	00         BRK
+01DE	00         BRK
+01DF	00         BRK
+01E0	00         BRK
+01E1	00         BRK
+01E2	00         BRK
+01E3	00         BRK
+01E4	00         BRK
+01E5	00         BRK
+01E6	00         BRK
+01E7	00         BRK
+01E8	00         BRK
+01E9	00         BRK
+01EA	00         BRK
+01EB	00         BRK
+01EC	00         BRK
+01ED	00         BRK
+01EE	00         BRK
+01EF	00         BRK
+01F0	00         BRK
+01F1	00         BRK
+01F2	00         BRK
+01F3	00         BRK
+01F4	00         BRK
+01F5	00         BRK
+01F6	00         BRK
+01F7	00         BRK
+01F8	00         BRK
+01F9	00         BRK
+01FA	00         BRK
+01FB	00         BRK
+01FC	00         BRK
+01FD	00         BRK
+01FE	00         BRK
+01FF	00         BRK
+0200	00         BRK
+0201	00         BRK
+0202	00         BRK
+0203	00         BRK
+0204	00         BRK
+0205	00         BRK
+0206	00         BRK
+0207	00         BRK
+0208	00         BRK
+0209	00         BRK
+020A	00         BRK
+020B	00         BRK
+020C	00         BRK
+020D	00         BRK
+020E	00         BRK
+020F	00         BRK
+0210	00         BRK
+0211	00         BRK
+0212	00         BRK
+0213	00         BRK
+0214	00         BRK
+0215	00         BRK
+0216	00         BRK
+0217	00         BRK
+0218	00         BRK
+0219	00         BRK
+021A	00         BRK
+021B	00         BRK
+021C	00         BRK
+021D	00         BRK
+021E	00         BRK
+021F	00         BRK
+0220	00         BRK
+0221	00         BRK
+0222	00         BRK
+0223	00         BRK
+0224	00         BRK
+0225	00         BRK
+0226	00         BRK
+0227	00         BRK
+0228	00         BRK
+0229	00         BRK
+022A	00         BRK
+022B	00         BRK
+022C	00         BRK
+022D	00         BRK
+022E	00         BRK
+022F	00         BRK
+0230	00         BRK
+0231	00         BRK
+0232	00         BRK
+0233	00         BRK
+0234	00         BRK
+0235	00         BRK
+0236	00         BRK
+0237	00         BRK
+0238	00         BRK
+0239	00         BRK
+023A	00         BRK
+023B	00         BRK
+023C	00         BRK
+023D	00         BRK
+023E	00         BRK
+023F	00         BRK
+0240	00         BRK
+0241	00         BRK
+0242	00         BRK
+0243	00         BRK
+0244	00         BRK
+0245	00         BRK
+0246	00         BRK
+0247	00         BRK
+0248	00         BRK
+0249	00         BRK
+024A	00         BRK
+024B	00         BRK
+024C	00         BRK
+024D	00         BRK
+024E	00         BRK
+024F	00         BRK
+0250	00         BRK
+0251	00         BRK
+0252	00         BRK
+0253	00         BRK
+0254	00         BRK
+0255	00         BRK
+0256	00         BRK
+0257	00         BRK
+0258	00         BRK
+0259	00         BRK
+025A	00         BRK
+025B	00         BRK
+025C	00         BRK
+025D	00         BRK
+025E	00         BRK
+025F	00         BRK
+0260	00         BRK
+0261	00         BRK
+0262	00         BRK
+0263	00         BRK
+0264	00         BRK
+0265	00         BRK
+0266	00         BRK
+0267	00         BRK
+0268	00         BRK
+0269	00         BRK
+026A	00         BRK
+026B	00         BRK
+026C	00         BRK
+026D	00         BRK
+026E	00         BRK
+026F	00         BRK
+0270	00         BRK
+0271	00         BRK
+0272	00         BRK
+0273	00         BRK
+0274	00         BRK
+0275	00         BRK
+0276	00         BRK
+0277	00         BRK
+0278	00         BRK
+0279	00         BRK
+027A	00         BRK
+027B	00         BRK
+027C	00         BRK
+027D	00         BRK
+027E	00         BRK
+027F	00         BRK
+0280	00         BRK
+0281	00         BRK
+0282	00         BRK
+0283	00         BRK
+0284	00         BRK
+0285	00         BRK
+0286	00         BRK
+0287	00         BRK
+0288	00         BRK
+0289	00         BRK
+028A	00         BRK
+028B	00         BRK
+028C	00         BRK
+028D	00         BRK
+028E	00         BRK
+028F	00         BRK
+0290	00         BRK
+0291	00         BRK
+0292	00         BRK
+0293	00         BRK
+0294	00         BRK
+0295	00         BRK
+0296	00         BRK
+0297	00         BRK
+0298	00         BRK
+0299	00         BRK
+029A	00         BRK
+029B	00         BRK
+029C	00         BRK
+029D	00         BRK
+029E	00         BRK
+029F	00         BRK
+02A0	00         BRK
+02A1	00         BRK
+02A2	00         BRK
+02A3	00         BRK
+02A4	00         BRK
+02A5	00         BRK
+02A6	00         BRK
+02A7	00         BRK
+02A8	00         BRK
+02A9	00         BRK
+02AA	00         BRK
+02AB	00         BRK
+02AC	00         BRK
+02AD	00         BRK
+02AE	00         BRK
+02AF	00         BRK
+02B0	00         BRK
+02B1	00         BRK
+02B2	00         BRK
+02B3	00         BRK
+02B4	00         BRK
+02B5	00         BRK
+02B6	00         BRK
+02B7	00         BRK
+02B8	00         BRK
+02B9	00         BRK
+02BA	00         BRK
+02BB	00         BRK
+02BC	00         BRK
+02BD	00         BRK
+02BE	00         BRK
+02BF	00         BRK
+02C0	00         BRK
+02C1	00         BRK
+02C2	00         BRK
+02C3	00         BRK
+02C4	00         BRK
+02C5	00         BRK
+02C6	00         BRK
+02C7	00         BRK
+02C8	00         BRK
+02C9	00         BRK
+02CA	00         BRK
+02CB	00         BRK
+02CC	00         BRK
+02CD	00         BRK
+02CE	00         BRK
+02CF	00         BRK
+02D0	00         BRK
+02D1	00         BRK
+02D2	00         BRK
+02D3	00         BRK
+02D4	00         BRK
+02D5	00         BRK
+02D6	00         BRK
+02D7	00         BRK
+02D8	00         BRK
+02D9	00         BRK
+02DA	00         BRK
+02DB	00         BRK
+02DC	00         BRK
+02DD	00         BRK
+02DE	00         BRK
+02DF	00         BRK
+02E0	00         BRK
+02E1	00         BRK
+02E2	00         BRK
+02E3	00         BRK
+02E4	00         BRK
+02E5	00         BRK
+02E6	00         BRK
+02E7	00         BRK
+02E8	00         BRK
+02E9	00         BRK
+02EA	00         BRK
+02EB	00         BRK
+02EC	00         BRK
+02ED	00         BRK
+02EE	00         BRK
+02EF	00         BRK
+02F0	00         BRK
+02F1	00         BRK
+02F2	00         BRK
+02F3	00         BRK
+02F4	00         BRK
+02F5	00         BRK
+02F6	00         BRK
+02F7	00         BRK
+02F8	00         BRK
+02F9	00         BRK
+02FA	00         BRK
+02FB	00         BRK
+02FC	00         BRK
+02FD	00         BRK
+02FE	00         BRK
+02FF	00         BRK
+0300	00         BRK
+0301	00         BRK
+0302	00         BRK
+0303	00         BRK
+0304	00         BRK
+0305	00         BRK
+0306	00         BRK
+0307	00         BRK
+0308	00         BRK
+0309	00         BRK
+030A	00         BRK
+030B	00         BRK
+030C	00         BRK
+030D	00         BRK
+030E	00         BRK
+030F	00         BRK
+0310	00         BRK
+0311	BA         TSX          ; 
+0312	8A         TXA          ;
+0313	E9 50      SBC #$50     ;
+0315	AA         TAX          ;
+0316	9A         TXS          ; sub SP, 0x50 -- A = X = SP
+0317	69 01      ADC #$01     ; add A, 0x1
+0319	A8         TAY          ; mov Y, A     -- Y = SP + 1
+031A	A9 86      LDA #$86     ; mov A, 0x86
+031C	8D 0000    STA $0000    ; mov [0x0000], A
+031F	A9 03      LDA #$03     ; mov A, 0x03
+0321	8D 0100    STA $0001    ; mov [0x0001], A
+0324	20 6F03    JSR $036F    ; call 0x36f -- write(0x386)
+0327	8C 0000    STY $0000    ; mov [0x0000], Y
+032A	A9 01      LDA #$01     ; mov A, 0x01
+032C	8D 0100    STA $0001    ; mov [0x0001], A
+032F	20 5203    JSR $0352    ; call 0x352 -- read(Y)
+0332	8C 0000    STY $0000    ; mov [0x0000], Y
+0335	A9 01      LDA #$01     ; mov A, 0x01
+0337	8D 0100    STA $0001    ; mov [0x0001], A
+033A	20 6F03    JSR $036F    ; call 0x36f -- write(???)
+033D	A9 B1      LDA #$B1     ; mov A, 0xB1
+033F	8D 0000    STA $0000    ; mov [0x0000], A
+0342	A9 03      LDA #$03     ; load A, 0x03
+0344	8D 0100    STA $0001    ; mov [0x0001], A
+0347	20 6F03    JSR $036F    ; call 0x36f -- write(0x3b1)
+034A	BA         TSX          ;
+034B	8A         TXA          ;
+034C	69 50      ADC #$50     ;  
+034E	AA         TAX          ; 
+034F	9A         TXS          ; add SP, 0x50
+0350	60         RTS          ; ret
+0351	FF         ???
+0352	8A         TXA          ; -- Read string to [0x00]
+0353	48         PHA          ; push X
+0354	98         TYA          ;
+0355	48         PHA          ; push Y
+0356	A0 00      LDY #$00     ; mov Y, [0x0000]
+0358	AD CDAB    LDA $ABCD    ; mov A, [0xABCE]
+035B	C9 0A      CMP #$0A     ; cmp A, 0x0a
+035D	F0 06      BEQ $06      ; je +0x06
+035F	91 00      STA $(00),Y  ; mov [Y + 0x0], A
+0361	C8         INY          ; inc Y
+0362	4C 5803    JMP $0358    
+0365	A9 00      LDA #$00     ; mov A, [0x0000]
+0367	91 00      STA $(00),Y  ; mov [Y + 0x0], A
+0369	68         PLA          ;
+036A	A8         TAY          ; pop Y
+036B	68         PLA          ;
+036C	AA         TAX          ; pop X
+036D	60         RTS          ; ret
+036E	FF         ???
+036F	8A         TXA          ; -- Write string starting from [0x00:2]
+0370	48         PHA          ; push X
+0371	98         TYA          ; 
+0372	48         PHA          ; push Y
+0373	A0 00      LDY #$00     ; mov Y, [0x00]
+0375	EA         NOP
+0376	B1 00      LDA $(00),Y  ; mov A [0x00 + Y]
+0378	F0 07      BEQ $07      ; je +0x07
+037A	8D CDAB    STA $ABCD    ; Write(0xABCD, A)
+037D	C8         INY          ; inc Y
+037E	4C 7503    JMP $0375    ; 
+0381	68         PLA          ;
+0382	A8         TAY          ; pop Y
+0383	68         PLA          ; 
+0384	AA         TAX          ; pop X
+0385	60         RTS          ; ret
+0386	57         ???
+0387	65 6C      ADC $6C
+0389	63         ???
+038A	6F         ???
+038B	6D 6520    ADC $2065
+038E	74         ???
+038F	6F         ???
+0390	20 3635    JSR $3536
+0393	30 32      BMI $32
+0395	20 5077    JSR $7750
+0398	6E 696E    ROR $6E69
+039B	67         ???
+039C	0A         ASL A
+039D	57         ???
+039E	68         PLA
+039F	61 74      ADC $(74,X)
+03A1	20 6973    JSR $7369
+03A4	20 796F    JSR $6F79
+03A7	75 72      ADC $72,X
+03A9	20 6E61    JSR $616E
+03AC	6D 653F    ADC $3F65
+03AF	0A         ASL A
+03B0	00         BRK
+03B1	2C 2077    BIT $7720
+03B4	65 6C      ADC $6C
+03B6	63         ???
+03B7	6F         ???
+03B8	6D 6520    ADC $2065
+03BB	74         ???
+03BC	6F         ???
+03BD	20 7468    JSR $6874
+03C0	65 20      ADC $20
+03C2	67         ???
+03C3	61 6D      ADC $(6D,X)
+03C5	65 21      ADC $21
+03C7	0A         ASL A
+03C8	00         BRK
+03C9	6F         ???
+03CA	34         ???
+03CB	30 7B      BMI $7B
+03CD	52         ???
+03CE	65 64      ADC $64
+03D0	61 63      ADC $(63,X)
+03D2	74         ???
+03D3	65 64      ADC $64
+03D5	46 6C      LSR $6C
+03D7	61 67      ADC $(67,X)
+03D9	2D 2D2D    AND $2D2D
+03DC	2D 2D2D    AND $2D2D
+03DF	2D 2D2D    AND $2D2D
+03E2	2D 2D2D    AND $2D2D
+03E5	2D 2D2D    AND $2D2D
+03E8	2D 2D2D    AND $2D2D
+03EB	2D 2D2D    AND $2D2D
+03EE	2D 2D2D    AND $2D2D
+03F1	2D 2D2D    AND $2D2D
+03F4	2D 2D2D    AND $2D2D
+03F7	7D 0A00    ADC $000A,X
+03FA	67         ???
+03FB	6F         ???
+03FC	6F         ???
+03FD	64         ???
+03FE	20 6C75    JSR $756C
+0401	63         ???
+0402	6B         ???
+0403	21 0A      AND $(0A,X)
+0405	00         BRK
+0406	0A         ASL A
